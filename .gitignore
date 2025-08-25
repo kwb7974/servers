@@ -293,7 +293,7 @@ cython_debug/
 .DS_Store
 
 # AI作業担当者向けドキュメント（機密情報含む）
-.ai-docs/
+.ai-project-context/
 
 # カスタムMCPサーバー用ディレクトリ（個人情報・APIキー含む可能性）
 third-party/
