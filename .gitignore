@@ -292,6 +292,24 @@ cython_debug/
 
 .DS_Store
 
+# AI作業担当者向けドキュメント（機密情報含む）
+.ai-docs/
+
+# カスタムMCPサーバー用ディレクトリ（個人情報・APIキー含む可能性）
+third-party/
+my-custom-servers/
+custom/
+containers/
+
+# 個人的なIDEワークスペース設定
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# その他の個人設定
+.claude/settings.local.json
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
